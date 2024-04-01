@@ -1,1 +1,19 @@
 # Final-Project
+#this is my proposal
+1) Olusewa Obadiya
+
+2) Syphillis and Pre-natal Health
+
+3) A shiny app
+
+4) Allow people to explore the statistics surroundng std’s and the impact it has on fetuses
+
+5) I will be using Public Use Data sets from the CDC concerning syphillis rates among various populations from 2013 to 2022
+
+6) The main feature of the app will be attractive graphs that allow people to explore the data from diffferent years. They will answer the questions of: what was the syphillis rate that year, what was the syphillis rate among infants, and how these rates have changed over time
+
+8) I aim to allow users to generate different graphs by selecting or excluding certain variables, so that they can focus on the part of the data that is relavant to them. 
+
+9) I suspect that I will have the most truble programming the graphs so that users can select or deselect certain variables. 
+
+10) I am working by myself
