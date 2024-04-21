@@ -1,4 +1,9 @@
 # Final-Project
+It should be noted that the code that is needed to run my project is in a folder
+called FinalProject, I apolgize for this, when I went to re-read the requirements 
+it was too late to change the folder name. The data sets that I will need
+for the app are here as well, they are called CD_by_year, and CSsymptoms respectively
+
 #this is my proposal
 1) Olusewa Obadiya
 
