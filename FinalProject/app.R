@@ -42,7 +42,7 @@ server <- function(input, output) {
   
   #option<-reactive({input$person})
   
-  output$overall<-renderPlot({ggplot(data = CS_by_year, aes(x = Year, y=!!sym(input$person)))+geom_col()})
+  output$overall<-renderPlot({ggplot(data = CS_by_year, aes(x = Year, y=!!sym(input$person), fill =!!sym(input$person) )) +geom_col()})
   
   #option1<-reactive({input$Year})
   datr<-reactive({data<-CSsymptoms
@@ -51,7 +51,7 @@ server <- function(input, output) {
   
   output$after<-renderPlot({#data<-CSsymptoms
     #data<-subset(data, Year = !!sym(input$year))
-    ggplot(datr(), aes(x = Vital.Status, y = Cases))+geom_col()
+    ggplot(datr(), aes(x = Vital.Status, y = Cases, fill = Cases))+geom_col()
   })
 }
 
